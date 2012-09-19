@@ -1,4 +1,4 @@
-Ctrl_save plugin for Wolf CMS
+Ctrl_Save plugin for Wolf CMS
 =============================
 
 Supports "CTRL-S" keystroke to save forms while editing pages, snippets and layouts and continue editing.
