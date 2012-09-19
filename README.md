@@ -12,7 +12,7 @@ Ctrl_Save Plugin can be installed into your WolfCMS by uploading it to ***CMS_RO
 Changelog
 ---------
 
-0.0.1
+0.0.2
 
 - first release
 - Tested with: Chrome 20.0, Firefox 16.0, Opera 12.0

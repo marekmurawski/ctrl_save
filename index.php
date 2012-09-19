@@ -21,7 +21,7 @@ Plugin::setInfos(array(
 		'id'          => 'ctrl_save',
 		'title'       => 'Ctrl-Save and Continue',
 		'description' => __('Supports "Ctrl-S" keystroke to save form and continue editing.'),
-		'version'     => '0.0.1',
+		'version'     => '0.0.2',
 			'license'     => 'GPL',
 			'author'      => 'Marek Murawski',
 		'website'     => 'http://marekmurawski.pl/',
