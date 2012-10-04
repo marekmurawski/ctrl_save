@@ -12,6 +12,10 @@ Ctrl_Save Plugin can be installed into your WolfCMS by uploading it to ***CMS_RO
 Changelog
 ---------
 
+0.0.3
+
+- bugfix: script does not catch AltGr now (right kbd alt)
+
 0.0.2
 
 - first release
