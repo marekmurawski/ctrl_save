@@ -1,4 +1,5 @@
 <?php
+
 /*
  * Wolf CMS - Content Management Simplified. <http://www.wolfcms.org>
  * Copyright (C) 2008-2010 Martijn van der Kleijn <martijn.niji@gmail.com>
@@ -15,16 +16,18 @@
  */
 
 /* Security measure */
-if (!defined('IN_CMS')) { exit(); }
+if ( !defined('IN_CMS') ) {
+    exit();
+}
 
 Plugin::setInfos(array(
-		'id'          => 'ctrl_save',
-		'title'       => 'Ctrl-Save and Continue',
-		'description' => __('Supports "Ctrl-S" keystroke to save form and continue editing.'),
-		'version'     => '0.0.3',
-			'license'     => 'GPL',
-			'author'      => 'Marek Murawski',
-		'website'     => 'http://marekmurawski.pl/',
-		'update_url'  => 'http://marekmurawski.pl/static/wolfplugins/plugin-versions.xml',
-		'require_wolf_version' => '0.7.3' // 0.7.5SP-1 fix -> downgrading requirement to 0.7.3
+            'id'                   => 'ctrl_save',
+            'title'                => 'Ctrl-Save and Continue',
+            'description'          => __('Supports "Ctrl-S" keystroke to save form and continue editing.'),
+            'version'              => '0.0.4',
+            'license'              => 'GPL',
+            'author'               => 'Marek Murawski',
+            'website'              => 'http://marekmurawski.pl/',
+            'update_url'           => 'http://marekmurawski.pl/static/wolfplugins/plugin-versions.xml',
+            'require_wolf_version' => '0.7.3' // 0.7.5SP-1 fix -> downgrading requirement to 0.7.3
 ));
